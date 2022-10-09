@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-  char s1[100] = "programming ", s2[] = "is awesome";
+  char s1[100] = "Sankalp ", s2[] = "is Shaan";
   int length, j;
 
   length = 0;
