@@ -1,16 +1,13 @@
 #include<stdio.h>
 int main(){
 
-   
+   printf("RA2211042010059")
    int i, j, count, temp, number[25];
-
    printf("How many numbers u are going to enter?: ");
    scanf("%d",&count);
-
    printf("Enter %d elements: ", count);
    for(i=0;i<count;i++)
-      scanf("%d",&number[i]);
-
+      scanf("%d",&number[i])
    for(i=1;i<count;i++){
       temp=number[i];
       j=i-1;
