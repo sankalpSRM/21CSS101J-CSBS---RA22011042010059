@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+   printf("RA2211042010059")
    int low, high, i, flag;
    printf("Enter two numbers(intervals): ");
    scanf("%d %d", &low, &high);
@@ -9,12 +10,10 @@ int main() {
  
    while (low < high) {
       flag = 0;
-
       if (low <= 1) {
          ++low;
          continue;
       }
-
       for (i = 2; i <= low / 2; ++i) {
 
          if (low % i == 0) {
@@ -22,7 +21,6 @@ int main() {
             break;
          }
       }
-
       if (flag == 0)
          printf("%d ", low);
 
