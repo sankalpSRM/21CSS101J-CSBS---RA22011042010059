@@ -1,10 +1,8 @@
 #include <stdio.h>
 int main() {
-
+  printf("RA2211042010059")
   int i, n;
-  
   int t1 = 0, t2 = 1;
-
   int nextTerm = t1 + t2;
 
   printf("Enter the number of terms: ");
