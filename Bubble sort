@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-
+   printf("RA2211042010059")
    int count, temp, i, j, number[30];
 
    printf("How many numbers are u going to enter?: ");
