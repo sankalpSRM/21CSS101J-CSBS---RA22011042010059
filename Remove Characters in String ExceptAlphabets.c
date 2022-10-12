@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
+   printf("RA2211042010059") 
    char line[150];
-   
    printf("Enter a string: ");
    fgets(line, sizeof(line), stdin); // take input
 
