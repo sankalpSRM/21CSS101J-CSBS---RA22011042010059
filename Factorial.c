@@ -3,7 +3,7 @@ int main() {
     printf("RA2211042010059")
     int n, i;
     unsigned long long fact = 1;
-    printf("Enter an integer: ");
+    printf("Enter an integer: ", n);
     scanf("%d", &n);
     
     if (n < 0)
