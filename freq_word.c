@@ -3,6 +3,7 @@
 #include<string.h>
 int main()
 {
+   printf("RA2211042010059");
    char str[100], word[20];
    int i, j, ls, lw, temp, countW=0, chk;
    printf("Enter the String: ");
