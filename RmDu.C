@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
+   printf("RA2211042010059");
    int a[50],i,j,k, count = 0, dup[50], number;
    printf("Enter size of the array");
    scanf("%d",&number);
