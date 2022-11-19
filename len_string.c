@@ -2,6 +2,7 @@
 #include<string.h>
 int main()
 {
+    printf("RA2211042010059");
     char str[20];
     int len;
     printf("Enter the string: ");
