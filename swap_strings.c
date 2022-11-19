@@ -3,6 +3,7 @@
 #include<string.h>
 int main()
 {
+    printf("RA2211042010059");
     char str1[50], str2[50], temp[50];
     printf("Enter the First String: ");
     gets(str1);
