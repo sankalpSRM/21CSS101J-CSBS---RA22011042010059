@@ -5,13 +5,13 @@ int main()
     printf("RA2211042010059");
     int arr[] = {1, 2, 3, 4, 5};     
     int length = sizeof(arr)/sizeof(arr[0]);    
-    int n = 3;    
+    int n = 3;   
+    int j, last;    
     printf("Original array: \n");    
     for (int i = 0; i < length; i++) {     
         printf("%d ", arr[i]);     
     }     
     for(int i = 0; i < n; i++){    
-        int j, last;    
         last = arr[length-1];    
         
         for(j = length-1; j > 0; j--){    
